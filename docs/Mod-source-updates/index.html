@@ -14,7 +14,7 @@
         <link rel="prev" href="../Credits/">
       
       
-        <link rel="next" href="../mod-licenses/deciv-2/">
+        <link rel="next" href="../mod-attribution/deciv-2/">
       
       
         
@@ -1753,7 +1753,7 @@
   <span class="md-ellipsis">
     
   
-    Mod licenses
+    Mod attribution
   
 
     
@@ -1769,7 +1769,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Mod licenses
+    Mod attribution
   
 
           </label>
@@ -1782,7 +1782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mod-licenses/deciv-2/" class="md-nav__link">
+      <a href="../mod-attribution/deciv-2/" class="md-nav__link">
         
   
   
@@ -1810,7 +1810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mod-licenses/forgotten-factions-for-deciv/" class="md-nav__link">
+      <a href="../mod-attribution/forgotten-factions-for-deciv/" class="md-nav__link">
         
   
   
@@ -1838,7 +1838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mod-licenses/outlaws-of-the-wastes/" class="md-nav__link">
+      <a href="../mod-attribution/outlaws-of-the-wastes/" class="md-nav__link">
         
   
   
@@ -1866,7 +1866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mod-licenses/steampunk-nations-for-deciv/" class="md-nav__link">
+      <a href="../mod-attribution/steampunk-nations-for-deciv/" class="md-nav__link">
         
   
   
@@ -1949,17 +1949,15 @@ Each mod should use a public repository URL and an exact branch, tag, or ref to 
 <span class="w">  </span><span class="nt">&quot;integrationRole&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;extension&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;integrationOrder&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;dependsOn&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
-<span class="w">  </span><span class="nt">&quot;license&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;pending&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;files&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<span class="w">  </span><span class="nt">&quot;attribution&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;licenseFiles&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
 <span class="w">    </span><span class="nt">&quot;readmes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
 <span class="w">    </span><span class="nt">&quot;credits&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Set <code>license.status</code> to <code>approved</code> or <code>compatible</code> only after reviewing the mod's
-license, README, and credits. The importer refuses to bundle a repo-backed mod
-while the status is still <code>pending</code>.</p>
+<p>The importer preserves README, credits, and license-like files when present so
+the integrated build can keep attribution close to the imported mod content.</p>
 <p>Useful commands:</p>
 <div class="highlight"><pre><span></span><code><span class="n">python</span> <span class="n">tools</span><span class="p">\</span><span class="n">mods</span><span class="p">\</span><span class="n">mod_repo_manager</span><span class="p">.</span><span class="n">py</span> <span class="n">validate-manifest</span>
 <span class="n">python</span> <span class="n">tools</span><span class="p">\</span><span class="n">mods</span><span class="p">\</span><span class="n">mod_repo_manager</span><span class="p">.</span><span class="n">py</span> <span class="n">check-updates</span>

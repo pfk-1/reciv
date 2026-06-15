@@ -37,7 +37,7 @@
         "type": "repo",
         "url": "https://github.com/carriontrooper/Forgotten-Factions-for-Deciv.git",
         "ref": "main",
-        "pinnedCommit": ""
+        "pinnedCommit": "fe838e3614b498f8be031e9c7910ae297ae543d6"
       },
       "includeInRecivVanilla": true,
       "integrationRole": "extension",

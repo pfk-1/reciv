@@ -63,7 +63,7 @@
         "type": "repo",
         "url": "https://github.com/the-s-is-silent/Outlaws-of-the-Wastes.git",
         "ref": "main",
-        "pinnedCommit": ""
+        "pinnedCommit": "34542317296d20e0ddd0d6cc0533bba771de60a7"
       },
       "includeInRecivVanilla": true,
       "integrationRole": "extension",

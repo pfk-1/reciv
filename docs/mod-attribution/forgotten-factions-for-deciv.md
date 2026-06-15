@@ -1,12 +1,10 @@
 # Forgotten Factions for DeCiv
 
-- Source: https://github.com/carriontrooper/Forgotten-Factions-for-Deciv
-- Watched ref: `main`
-- Manifest slug: `forgotten-factions-for-deciv`
-- README files found: `README.md`
-- Credits files found: `Credits.md`
+- Source: https://github.com/carriontrooper/Forgotten-Factions-for-Deciv.git
+- Ref: main
+- Pinned commit: fe838e3614b498f8be031e9c7910ae297ae543d6
+- License files: none found
+- README files: README.md
+- Credits files: Credits.md
 
-Attribution notes:
-
-- `README.md` describes the project as reimagining or updating abandoned/discontinued older DeCiv mods.
-- `Credits.md` references several original mods and authors, including Dandelion, Elysium, Deciv Reworked, Deciv Return of the Middle Kingdom, DeCiv Gestalts, and Naciones pa Deciv ES.
+This summary is for attribution and provenance. It is not an import gate.

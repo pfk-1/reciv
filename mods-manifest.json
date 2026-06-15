@@ -89,7 +89,7 @@
         "type": "repo",
         "url": "https://github.com/carriontrooper/Steampunk-Nations-for-Deciv.git",
         "ref": "main",
-        "pinnedCommit": ""
+        "pinnedCommit": "b7c2439499d516256d323606a40ad0853c04982a"
       },
       "includeInRecivVanilla": true,
       "integrationRole": "extension",
